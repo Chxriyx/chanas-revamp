@@ -1,0 +1,130 @@
+/*
+ Theme Name: Chanas Theme
+ Theme URI: http://chanas.lk
+ Author: Charith Wijenayake
+ Author URI: http://chanas.lk
+ Description: Chanas restaurant theme.
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: my-custom-theme
+*/
+
+/* 
+ * home-page.css
+ * header section
+ */
+
+ .home-page-header .navbar .navbar-nav{
+    display: flex;
+    align-items: center;
+}
+
+.home-page-header .bg-custom{
+    background-color: #FAF3E5;
+ }
+
+.home-page-banner { 
+    background-image: url(https://wp.chanas.lk/wp-content/uploads/2024/10/chanas-home-page-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-page-banner h1{       
+    font-weight: 700;  
+    font-size: 80px;
+    text-align: center;
+    color: white;   
+}
+
+.home-page-banner p{       
+    font-weight: 400;  
+    font-size: 24px;
+    text-align: center;
+    color: white;   
+    padding-top: 25px;
+}
+
+.home-page-banner .buttons-banner{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.home-page-banner .buttons-banner .order-now-btn{
+    background: #FE5B02;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.home-page-banner .buttons-banner .book-banquet-btn{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.home-page-restaurant-branches{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #F3F7EE;
+}
+
+.home-page-restaurant-branches h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    color: #2A292B;
+}
+
+.home-page-restaurant-branches p{   
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2A292B;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.home-page-restaurant-branches .branches-banner-img{
+    margin-bottom: 40px;
+}
+
+.home-page-restaurant-branches .nawala-branch-btn{
+    color: #2A292B;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #2A292B;
+    background-color: white;
+    border-radius: 60px;
+    text-decoration: none;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-restaurant-branches .reservation-btn{
+    font-size: 22px;
+    font-weight: 500;
+    color: #2A292B;
+}

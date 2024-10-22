@@ -1,0 +1,4 @@
+[14-Oct-2024 14:51:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/chanaslk/public_html/chanas-revamp/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/chanaslk/public_html/chanas-revamp/wp-includes/blocks/index.php on line 8
